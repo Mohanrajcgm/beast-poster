@@ -1,0 +1,71 @@
+body {
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
+    background-color: hsl(0, 39%, 12%);
+  }
+  
+  .beast {
+    height: 150px;
+    width: 100px;
+
+    /* display: block; */
+  
+    /* Zooms in */
+    object-fit: cover;
+    align-items: center;
+    border-radius: 30px;
+    
+  
+    /* Zooms  out */
+    /* object-fit: contain; */
+  }
+h1{
+    letter-spacing:0.05cm;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: aliceblue;
+}
+h2{ text-align: center;
+    font-size: 10px;
+    color:rgb(165, 138, 165);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p1{ text-align: center;
+    line-height: .5cm;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p2{ text-align: center;
+    line-height: .5cm;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p3{ text-align: center;
+    line-height: .5cm;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: lighter; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p4{ text-align: center;
+    line-height: .5cm;
+    font-size: 12px;
+    color: aliceblue; 
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+/* div{
+font-size: 12px;
+    color: aliceblue; 
+} */
